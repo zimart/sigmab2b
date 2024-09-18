@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM screeny_inventory where fk_oferty_inventory_id={{appsmith.URL.queryParams.id_oferta}};",
+      "body": "SELECT * FROM screeny_inventory where fk_oferty_inventory_id ={{appsmith.URL.queryParams.id_oferta}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "tabela_inventory_id",
     "pageId": "Screeny_inventory",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

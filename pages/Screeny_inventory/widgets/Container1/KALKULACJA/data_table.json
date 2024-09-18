@@ -52,6 +52,8 @@
     "powierzchnia",
     "ilosc",
     "concat",
+    "cenanetto",
+    "vat",
     "customColumn1"
   ],
   "columnSizeMap": {
@@ -59,7 +61,7 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1726513640066,
+  "columnUpdatedAt": 1726678691800,
   "columnWidthMap": {
     "skugen": 248
   },
@@ -191,6 +193,12 @@
       "key": "primaryColumns.concat.computedValue"
     },
     {
+      "key": "primaryColumns.cenanetto.computedValue"
+    },
+    {
+      "key": "primaryColumns.vat.computedValue"
+    },
+    {
       "key": "tableData"
     }
   ],
@@ -200,6 +208,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicTriggerPathList": [
@@ -236,8 +247,8 @@
   "onPageChange": "{{SelectQuery.run()}}",
   "onSearchTextChanged": "{{SelectQuery.run()}}",
   "onSort": "{{SelectQuery.run()}}",
-  "originalBottomRow": 85,
-  "originalTopRow": 6,
+  "originalBottomRow": 215,
+  "originalTopRow": 128,
   "parentColumnSpace": 16.3125,
   "parentId": "o2y8szuai7",
   "parentRowSpace": 10,
@@ -269,6 +280,40 @@
       "label": "cena",
       "notation": "standard",
       "originalId": "cena",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "cenanetto": {
+      "alias": "cenanetto",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cenanetto\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "CENTER",
+      "id": "cenanetto",
+      "index": 28,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "cenanetto",
+      "notation": "standard",
+      "originalId": "cenanetto",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
@@ -1153,6 +1198,40 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
+    "vat": {
+      "alias": "vat",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{data_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"vat\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "CENTER",
+      "id": "vat",
+      "index": 29,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "vat",
+      "notation": "standard",
+      "originalId": "vat",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
     "wkladka": {
       "alias": "wkladka",
       "allowCellWrapping": false,
@@ -1226,7 +1305,7 @@
   "rightColumn": 49,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
-  "tableData": "{{SelectQuery.data}}",
+  "tableData": "{{tabela_inventory_id.data}}",
   "textSize": "0.875rem",
   "topRow": 128,
   "totalRecordsCount": 0,

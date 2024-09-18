@@ -11,11 +11,11 @@
       "colorStyle": "light",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "stacked",
-      "orientation": "top",
+      "navStyle": "sidebar",
+      "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",
@@ -96,6 +96,10 @@
     {
       "id": "Screeny_inventory Copy",
       "isDefault": false
+    },
+    {
+      "id": "Oferty2",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
@@ -109,11 +113,11 @@
       "colorStyle": "light",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "stacked",
-      "orientation": "top",
+      "navStyle": "sidebar",
+      "orientation": "side",
       "position": "static",
       "showNavbar": true,
-      "showSignIn": true
+      "showSignIn": false
     },
     "themeSetting": {
       "appMaxWidth": "LARGE",

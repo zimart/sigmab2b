@@ -111,12 +111,6 @@
       "key": "schema.__root_schema__.children.kategoria.borderRadius"
     },
     {
-      "key": "schema.__root_schema__.children.nieiwme.accentColor"
-    },
-    {
-      "key": "schema.__root_schema__.children.nieiwme.borderRadius"
-    },
-    {
       "key": "schema.__root_schema__.children.id_klient.accentColor"
     },
     {
@@ -154,6 +148,15 @@
     },
     {
       "key": "submitButtonStyles.buttonColor"
+    },
+    {
+      "key": "schema.__root_schema__.defaultValue"
+    },
+    {
+      "key": "schema.__root_schema__.cellBorderRadius"
+    },
+    {
+      "key": "schema.__root_schema__.borderRadius"
     }
   ],
   "dynamicHeight": "FIXED",
@@ -171,9 +174,6 @@
   "dynamicTriggerPathList": [
     {
       "key": "onSubmit"
-    },
-    {
-      "key": "schema.__root_schema__.children.nieiwme.onTextChanged"
     },
     {
       "key": "schema.__root_schema__.children.numeroferty.onTextChanged"
@@ -272,7 +272,7 @@
           "isDisabled": false,
           "isRequired": false,
           "isSpellCheck": false,
-          "isVisible": false,
+          "isVisible": true,
           "label": "Id Klient",
           "labelTextSize": "0.875rem",
           "originalIdentifier": "id_klient",
@@ -321,28 +321,6 @@
           "originalIdentifier": "klient",
           "position": 2,
           "sourceData": "[value-2]"
-        },
-        "nieiwme": {
-          "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-          "accessor": "nieiwme",
-          "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
-          "boxShadow": "none",
-          "children": {},
-          "dataType": "null",
-          "defaultValue": "",
-          "fieldType": "Text Input",
-          "iconAlign": "left",
-          "identifier": "nieiwme",
-          "isCustomField": false,
-          "isDisabled": false,
-          "isRequired": true,
-          "isSpellCheck": false,
-          "isVisible": false,
-          "label": "nirir",
-          "labelTextSize": "0.875rem",
-          "onTextChanged": "{{pobierzid.run()}}",
-          "originalIdentifier": "nieiwme",
-          "position": 7
         },
         "numeroferty": {
           "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
