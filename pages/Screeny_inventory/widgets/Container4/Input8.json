@@ -3,9 +3,9 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 40,
+  "bottomRow": 16,
   "boxShadow": "none",
-  "defaultText": "{{cenanapeduwybranego.data[0].cenakatalogowanaped}}",
+  "defaultText": "{{napedwybrany.data[0].model}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -14,52 +14,59 @@
       "key": "borderRadius"
     },
     {
+      "key": "isVisible"
+    },
+    {
       "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onTextChanged"
     }
   ],
   "iconAlign": "left",
-  "inputType": "NUMBER",
-  "isDisabled": false,
+  "inputType": "TEXT",
+  "isDisabled": true,
   "isLoading": false,
-  "isRequired": false,
-  "isVisible": true,
-  "key": "0ql3wq4oos",
-  "label": "Cena napędu",
+  "isRequired": true,
+  "isVisible": "{{sku_input.text.length > 0 }}",
+  "key": "191agobene",
+  "label": "Napęd",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 49,
+  "leftColumn": 7,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 15,
-  "mobileLeftColumn": 42,
-  "mobileRightColumn": 62,
-  "mobileTopRow": 8,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 41,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 7,
   "needsErrorInfo": false,
   "onTextChanged": "",
   "originalBottomRow": 40,
   "originalTopRow": 33,
-  "parentColumnSpace": 26.945571899414062,
-  "parentId": "8jwyu0isum",
+  "parentColumnSpace": 18.6884765625,
+  "parentId": "esfh9fxray",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
-  "shouldAllowAutofill": false,
+  "rightColumn": 14,
   "showStepArrows": false,
-  "topRow": 33,
+  "topRow": 9,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "otetwn5cgc",
-  "widgetName": "cenanapedu"
+  "widgetId": "luy2zdyfve",
+  "widgetName": "Input8"
 }

@@ -1,12 +1,12 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "animateLoading": true,
+  "animateLoading": false,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 46,
-  "bottomRowBeforeCollapse": 30,
+  "bottomRow": 15,
+  "bottomRowBeforeCollapse": 6,
   "boxShadow": "none",
-  "defaultText": "{{indekswys.data[0].indeks}}",
+  "defaultText": "{{danesku.data[0].cenakatalogowa}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -15,48 +15,65 @@
       "key": "borderRadius"
     },
     {
+      "key": "isVisible"
+    },
+    {
       "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
-  "dynamicTriggerPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    },
+    {
+      "key": "onSubmit"
+    }
+  ],
   "iconAlign": "left",
-  "inputType": "TEXT",
-  "isDisabled": false,
+  "inputType": "NUMBER",
+  "isDisabled": true,
   "isLoading": false,
   "isRequired": true,
-  "isVisible": true,
-  "key": "k0srx2q35d",
-  "label": "indeks_wys",
+  "isVisible": "{{sku_input.text.length > 0 }}",
+  "key": "iyb187w358",
+  "label": "cena systemu",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 21,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 33,
-  "mobileLeftColumn": 1,
-  "mobileRightColumn": 21,
-  "mobileTopRow": 26,
+  "mobileBottomRow": 18,
+  "mobileLeftColumn": 40,
+  "mobileRightColumn": 60,
+  "mobileTopRow": 11,
   "needsErrorInfo": false,
-  "originalBottomRow": 46,
-  "originalTopRow": 39,
+  "onSubmit": "",
+  "onTextChanged": "",
+  "originalBottomRow": 47,
+  "originalTopRow": 41,
   "parentColumnSpace": 19.59375,
-  "parentId": "8jwyu0isum",
+  "parentId": "esfh9fxray",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 26,
+  "rightColumn": 6,
   "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 39,
-  "topRowBeforeCollapse": 23,
+  "topRow": 9,
+  "topRowBeforeCollapse": 0,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "hwb7s21j5v",
-  "widgetName": "index_wys_input"
+  "widgetId": "dhobdk2smf",
+  "widgetName": "cena_systemu"
 }

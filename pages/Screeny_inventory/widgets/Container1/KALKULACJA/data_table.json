@@ -1,10 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "borderColor": "#dd4b34",
+  "borderColor": "rgba(46, 61, 73, 0.33)",
   "borderRadius": "1px",
   "borderWidth": "1",
-  "bottomRow": 215,
+  "bottomRow": 126,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "childStylesheet": {
     "button": {
@@ -61,7 +61,7 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1726678691800,
+  "columnUpdatedAt": 1726680780410,
   "columnWidthMap": {
     "skugen": 248
   },
@@ -247,8 +247,8 @@
   "onPageChange": "{{SelectQuery.run()}}",
   "onSearchTextChanged": "{{SelectQuery.run()}}",
   "onSort": "{{SelectQuery.run()}}",
-  "originalBottomRow": 215,
-  "originalTopRow": 128,
+  "originalBottomRow": 126,
+  "originalTopRow": 39,
   "parentColumnSpace": 16.3125,
   "parentId": "o2y8szuai7",
   "parentRowSpace": 10,
@@ -608,7 +608,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "indexszer",
       "notation": "standard",
       "originalId": "indexszer",
@@ -642,7 +642,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "indexwys",
       "notation": "standard",
       "originalId": "indexwys",
@@ -1307,7 +1307,7 @@
   "serverSidePaginationEnabled": true,
   "tableData": "{{tabela_inventory_id.data}}",
   "textSize": "0.875rem",
-  "topRow": 128,
+  "topRow": 39,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "variant": "VARIANT3",

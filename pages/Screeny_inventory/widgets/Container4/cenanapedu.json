@@ -3,53 +3,63 @@
   "animateLoading": true,
   "autoFocus": false,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 252,
+  "bottomRow": 16,
   "boxShadow": "none",
-  "defaultText": "",
+  "defaultText": "{{cenanapeduwybranego.data[0].cenakatalogowanaped}}",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onTextChanged"
+    }
+  ],
   "iconAlign": "left",
-  "inputType": "TEXT",
-  "isDisabled": false,
+  "inputType": "NUMBER",
+  "isDisabled": true,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "u66mnxu4qr",
-  "label": "Label",
+  "key": "0ql3wq4oos",
+  "label": "Cena napędu",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelStyle": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 0,
+  "leftColumn": 15,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 165,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 15,
-  "mobileTopRow": 158,
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 42,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "originalBottomRow": 252,
-  "originalTopRow": 245,
-  "parentColumnSpace": 20.5625,
-  "parentId": "0",
+  "onTextChanged": "",
+  "originalBottomRow": 40,
+  "originalTopRow": 33,
+  "parentColumnSpace": 26.945571899414062,
+  "parentId": "esfh9fxray",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "resetOnSubmit": true,
   "responsiveBehavior": "fill",
-  "rightColumn": 8,
+  "rightColumn": 21,
+  "shouldAllowAutofill": false,
   "showStepArrows": false,
-  "topRow": 245,
+  "topRow": 9,
   "type": "INPUT_WIDGET_V2",
   "version": 2,
-  "widgetId": "s5doj45wo1",
-  "widgetName": "doplatakolor"
+  "widgetId": "otetwn5cgc",
+  "widgetName": "cenanapedu"
 }

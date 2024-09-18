@@ -2,14 +2,14 @@
   "borderColor": "#d4d4d8",
   "borderRadius": "0px",
   "borderWidth": "",
-  "bottomRow": 10,
+  "bottomRow": 4,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
       "key": "text"
     }
   ],
-  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicHeight": "FIXED",
   "dynamicPropertyPathList": [
     {
       "key": "fontSize"
@@ -25,18 +25,16 @@
   "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
-  "originalBottomRow": 10,
-  "originalTopRow": 1,
   "overflow": "NONE",
   "parentColumnSpace": 11.78515625,
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
-  "rightColumn": 10,
+  "rightColumn": 9,
   "shouldScrollContents": true,
-  "text": "Klient:\n{{zapytaj_klient_inv.data[0].klient ||\"\"}}\n\n\n",
+  "text": "Klient:{{zapytaj_klient_inv.data[0].klient ||\"\"}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 1,
+  "topRow": 0,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "urzv99hdc8",
